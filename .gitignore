@@ -1,0 +1,7 @@
+
+images/
+results/
+mpdocvqa_imdbs/
+spdocvqa_ocr/
+spdocvqa_qas/
+.env
