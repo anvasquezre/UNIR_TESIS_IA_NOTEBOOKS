@@ -85,7 +85,6 @@ class LLMExtractorMultimodal(LLMExtractor):
         prompt_value = self._get_prompt_value(
             question=question, context=context, image=image
         )
-        logger.warning(f"Prompt value: {prompt_value}")
         answer: AIMessage = self.llm.invoke(input=prompt_value)
         return self.output_parser.parse(answer.content)
 
@@ -105,7 +104,6 @@ class LLMExtractorMultimodal(LLMExtractor):
         prompt_value = self._get_prompt_value(
             question=question, context=context, image=image
         )
-        logger.warning(f"Prompt value: {prompt_value}")
         answer: AIMessage = await self.llm.ainvoke(input=prompt_value)
         return await self.output_parser.aparse(answer.content)
 
