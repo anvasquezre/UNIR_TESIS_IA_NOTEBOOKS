@@ -11,3 +11,5 @@ pydantic==2.11.4
 pydantic-settings==2.9.1
 unsloth==2025.5.7
 json_repair==0.45.1
+torch==2.7.0
+torchvision==0.22.0
