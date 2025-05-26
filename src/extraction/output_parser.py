@@ -43,7 +43,7 @@ class LLMOutputParser:
     async def _aparse(self, llm_output: str, attemp: int) -> BaseModel:
         if attemp >= self.max_retries:
             logger.warning("Max retries reached while trying to parse agent reasoning")
-            return self.serializable()
+            return self.serializable(unparsed_output=llm_output)
         try:
             agent_reasoning = self._basic_parse(llm_output)
         except Exception as e:
@@ -96,7 +96,7 @@ class LLMOutputParser:
     ) -> BaseModel:
         if attemp >= self.max_retries:
             logger.warning("Max retries reached while trying to parse agent reasoning")
-            return self.serializable()
+            return self.serializable(unparsed_output=llm_output)
 
         try:
             agent_reasoning = self._basic_parse(llm_output)

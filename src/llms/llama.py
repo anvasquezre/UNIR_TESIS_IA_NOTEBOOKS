@@ -156,7 +156,9 @@ class LLama3_2_11B_V(BaseChatModel):
         message_decoded: str = self.tokenizer.decode(
             message_generation[0],
         )
-
+        logger.info(
+            f"Decoded message: {message_decoded}... (length: {len(message_decoded)})"
+        )
         # remove input text from the output
         message_decoded = message_decoded[len(input_text) :]
         # remove EOT token
