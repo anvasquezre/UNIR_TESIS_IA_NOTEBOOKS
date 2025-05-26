@@ -105,8 +105,8 @@ class LLama3_2_11B_V(BaseChatModel):
     """Llama 3.2 11B V model."""
 
     model_name: str = "llama-3.2-11B-V"
-    temperature: float = 0.1
-    top_p: float = 0.95
+    temperature: float = 1.5
+    top_p: float = 0.90
     max_tokens: int = 512
     gen_model: Any = model
     tokenizer: Any = tokenizer
@@ -165,7 +165,7 @@ class LLama3_2_11B_V(BaseChatModel):
         message_decoded = message_decoded.strip()
         # remove any leading or trailing newlines
         message_decoded = message_decoded.strip("\n")
-        logger.info(
+        logger.debug(
             f"Decoded message: {message_decoded}... (length: {len(message_decoded)})"
         )
 
