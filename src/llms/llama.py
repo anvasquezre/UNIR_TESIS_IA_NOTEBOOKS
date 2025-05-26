@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 from io import BytesIO
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -128,7 +129,7 @@ class LLama3_2_11B_V(BaseChatModel):
         )
         if images:
             images_pil = [
-                Image.open(BytesIO(image.encode("utf-8"))) for image in images
+                Image.open(BytesIO(base64.b64decode(image))) for image in images
             ]
 
             inputs = tokenizer(
