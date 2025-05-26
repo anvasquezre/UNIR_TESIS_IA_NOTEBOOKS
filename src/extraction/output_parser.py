@@ -62,7 +62,7 @@ class LLMOutputParser:
             logger.warning(
                 "Fixed JSON is empty or None, returning serializable with unparsed output"
             )
-            return self.serializable()
+            return self.serializable(unparsed_output=llm_output)
         agent_reasoning = self.pydantic_output_parser.parse(llm_output)
         return agent_reasoning
 
