@@ -59,6 +59,9 @@ class LLMOutputParser:
         fixed_json = repair_json(json_string, skip_json_loads=True)
         if not fixed_json:
             # empty string or None
+            logger.warning(
+                "Fixed JSON is empty or None, returning serializable with unparsed output"
+            )
             return self.serializable()
         agent_reasoning = self.pydantic_output_parser.parse(llm_output)
         return agent_reasoning
