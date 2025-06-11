@@ -15,3 +15,4 @@ torch==2.7.0
 torchvision==0.22.0
 opencv-python==4.11.0.86
 langchain-community==0.3.24
+seaborn==0.13.2
