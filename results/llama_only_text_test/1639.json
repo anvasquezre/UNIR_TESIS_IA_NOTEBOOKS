@@ -1,0 +1,1 @@
+{"answer":"","properties":{"answer":{"default":"","description":"The answer to the question.","title":"Answer","type":"string"},"input":{"title":"Input","type":"string"},"required":["answer","input"]}}

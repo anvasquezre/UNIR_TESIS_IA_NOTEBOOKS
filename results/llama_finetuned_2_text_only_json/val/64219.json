@@ -1,0 +1,1 @@
+{"answer":"","agent":"agent1","reason":"reason1","response":{"answer":"this is a response","context":"this is a context","output":"this is an output","entities":"[{'entity': 'entity1', 'role': 'role1'}, {'entity': 'entity2', 'role': 'role2'}]"}}

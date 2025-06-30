@@ -1,0 +1,1 @@
+{"answer":"","unparsed_output":"``json\n{\n  \"$schema\": \"https://json-schema.org/draft-07/schema#\",\n  \"additionalProperties\": true,\n  \"properties\": {\n    \"answer\": {\n      \"default\": \"\",\n      \"description\": \"The answer to the question.\",\n      \"title\": \"Answer\",\n      \"type\": \"string\"\n    }\n  },\n  \"required\": [\"answer\"]\n}\n```"}

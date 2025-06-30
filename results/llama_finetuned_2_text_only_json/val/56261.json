@@ -1,0 +1,1 @@
+{"answer":"","unparsed_output":"Here is the JSON formatting fixed:\n```json\n{\"agent\": \"R\": \"1\"}\n```\n\nThe schema is not provided as per the description, however the fixed JSON format is shown below:-\n\n```json\n{\"properties\": {\"agent\": {\"default\": \"\", \"description\": \"\", \"title\": \"Agent\", \"type\": \"string\"}}}\n```"}

@@ -1,0 +1,1 @@
+{"answer":"","additionalProperties":true,"properties":{"answer":{"default":"","description":"The answer to the question.","title":"Answer","type":"string"},"description":{"title":"Description","type":"string"},"member":{"type":"string"},"title":{"title":"Title","type":"string"},"type":{"title":"Type","type":"string"},"association":{"type":"string"}}}

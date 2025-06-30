@@ -1,0 +1,1 @@
+{"answer":"","additionalProperties":true,"properties":{"answer":{"default":"","description":"The answer to the question.","title":"Answer","type":"string"},"sept17":{"type":"string","description":"Date in the format DD MMM YYYY","title":"Date","format":"date"}}}

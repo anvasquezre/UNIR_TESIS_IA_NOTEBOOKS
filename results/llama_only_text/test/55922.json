@@ -1,0 +1,1 @@
+{"answer":"","unparsed_output":"``json\n{\n    \"smokers\": {\"title\": \"Smokers\", \"description\": \"A list of smokers\", \"type\": \"string\"},\n    \"answer\": {\"default\": \"\", \"description\": \"The answer to the question.\", \"title\": \"Answer\", \"type\": \"string\"}\n}\n```"}

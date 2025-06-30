@@ -1,0 +1,1 @@
+{"answer":"","unparsed_output":"Here is the fixed JSON formatting error in the agent reasoning:\n\n```json\n{\n    \"answer\": \"Agent reasoning: {\n        \"name\": \"Agent 001\",\n        \"experience\": {\n            \"type\": \"integer\",\n            \"value\": \"220\"\n        }\n    }\n}\n```"}

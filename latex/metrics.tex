@@ -1,0 +1,31 @@
+\begin{table}
+\caption{Metrics for each model on the validation set.}
+\label{tab:metrics}
+\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+model & wer & cer & war & car & anls & result@0_5 & result@0_7 & result@0_8 & result@0_9 & result@0_95 & parsing_error \\
+\midrule
+gpt-4-1-mini & 0.47 & 0.37 & 0.53 & 0.63 & 0.66 & 0.70 & 0.65 & 0.62 & 0.58 & 0.55 & 0.01 \\
+gpt-4-1-mini-multimodal & 0.30 & 0.22 & 0.70 & 0.78 & 0.83 & 0.85 & 0.82 & 0.80 & 0.77 & 0.75 & 0.00 \\
+gpt-4-1-mini-only-image & 0.30 & 0.22 & 0.70 & 0.78 & 0.83 & 0.85 & 0.82 & 0.80 & 0.77 & 0.75 & 0.00 \\
+gpt-4-1-nano & 0.49 & 0.40 & 0.51 & 0.60 & 0.61 & 0.64 & 0.59 & 0.57 & 0.54 & 0.52 & 0.00 \\
+gpt-4-1-nano-multimodal & 0.29 & 0.20 & 0.71 & 0.80 & 0.84 & 0.86 & 0.83 & 0.81 & 0.78 & 0.76 & 0.01 \\
+gpt-4-1-nano-only-image & 0.29 & 0.21 & 0.71 & 0.79 & 0.83 & 0.86 & 0.83 & 0.81 & 0.78 & 0.76 & 0.01 \\
+llama_finetuned_2_image_only & 0.46 & 0.32 & 0.54 & 0.68 & 0.76 & 0.80 & 0.74 & 0.71 & 0.68 & 0.65 & 0.19 \\
+llama_finetuned_2_image_only_json & 0.38 & 0.23 & 0.62 & 0.77 & 0.84 & 0.86 & 0.84 & 0.82 & 0.78 & 0.75 & 0.01 \\
+llama_finetuned_2_multimodal & 0.46 & 0.32 & 0.54 & 0.68 & 0.75 & 0.79 & 0.73 & 0.71 & 0.67 & 0.65 & 0.19 \\
+llama_finetuned_2_multimodal_json & 0.38 & 0.23 & 0.62 & 0.77 & 0.84 & 0.87 & 0.84 & 0.82 & 0.78 & 0.75 & 0.01 \\
+llama_finetuned_2_text_only & 0.81 & 0.70 & 0.19 & 0.30 & 0.35 & 0.41 & 0.29 & 0.25 & 0.22 & 0.21 & 0.58 \\
+llama_finetuned_2_text_only_json & 0.63 & 0.47 & 0.37 & 0.53 & 0.55 & 0.59 & 0.54 & 0.51 & 0.46 & 0.43 & 0.06 \\
+llama_finetuned_image_only & 0.44 & 0.31 & 0.56 & 0.69 & 0.76 & 0.80 & 0.74 & 0.72 & 0.69 & 0.67 & 0.15 \\
+llama_finetuned_image_only_json & 0.36 & 0.21 & 0.64 & 0.79 & 0.85 & 0.87 & 0.85 & 0.83 & 0.79 & 0.76 & 0.00 \\
+llama_finetuned_multimodal & 0.44 & 0.31 & 0.56 & 0.69 & 0.76 & 0.80 & 0.74 & 0.72 & 0.69 & 0.67 & 0.15 \\
+llama_finetuned_multimodal_json & 0.36 & 0.21 & 0.64 & 0.79 & 0.86 & 0.88 & 0.85 & 0.83 & 0.79 & 0.76 & 0.00 \\
+llama_finetuned_text_only & 0.79 & 0.68 & 0.21 & 0.32 & 0.37 & 0.44 & 0.31 & 0.26 & 0.22 & 0.22 & 0.59 \\
+llama_finetuned_text_only_json & 0.60 & 0.44 & 0.40 & 0.56 & 0.58 & 0.62 & 0.57 & 0.53 & 0.48 & 0.45 & 0.03 \\
+llama_multimodal & 0.87 & 0.78 & 0.13 & 0.22 & 0.24 & 0.28 & 0.23 & 0.20 & 0.16 & 0.11 & 1.00 \\
+llama_only_image & 0.87 & 0.78 & 0.13 & 0.22 & 0.24 & 0.28 & 0.22 & 0.20 & 0.16 & 0.12 & 1.00 \\
+llama_only_text & 0.78 & 0.69 & 0.22 & 0.31 & 0.34 & 0.41 & 0.29 & 0.25 & 0.22 & 0.21 & 0.61 \\
+\bottomrule
+\end{tabular}
+\end{table}

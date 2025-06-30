@@ -1,0 +1,1 @@
+{"answer":"","properties":{"answer":{"default":"","description":"The answer to the question.","type":"string"},"question":{"title":"Name of the person on the form","description":"The name of the person on the form","default":"John A. Smith, Ph.D.","type":"string"}}}

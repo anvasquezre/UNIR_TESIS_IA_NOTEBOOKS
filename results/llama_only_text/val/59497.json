@@ -1,0 +1,1 @@
+{"answer":"","$schema":"http://json-schema.org/draft-07/schema#","additionalProperties":true,"properties":{"answer":{"default":"Total Center Support: 234.5","description":"The answer to the question.","title":"Answer","type":"string"}}}

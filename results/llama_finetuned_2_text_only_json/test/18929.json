@@ -1,0 +1,1 @@
+{"answer":"","unparsed_output":"```json\n{\"properties\": {\"answer\": \"How do you extract metadata from a JSON document? you can use the \"key\" values from the metadata object. For instance, you can do {'_id': '_id'}.\"}}\n```"}

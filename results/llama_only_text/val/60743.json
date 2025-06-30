@@ -1,0 +1,1 @@
+{"answer":"BURNABY","properties":{"answer":{"default":"","description":"The answer to the question.","type":"string"}},"required":["answer"]}

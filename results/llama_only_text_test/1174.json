@@ -1,0 +1,1 @@
+{"answer":"this text should not be a string with brackets in it","properties":{"answer":{"default":"","description":"The answer to the question.","title":"Answer","type":"string"}}}

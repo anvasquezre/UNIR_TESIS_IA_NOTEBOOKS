@@ -1,0 +1,1 @@
+{"answer":"","additionalProperties":true,"properties":{"Department":{"title":"Department","type":"string"},"answer":{"default":"","description":"The answer to the question.","title":"Answer","type":"string"}},"required":["Department","answer"]}

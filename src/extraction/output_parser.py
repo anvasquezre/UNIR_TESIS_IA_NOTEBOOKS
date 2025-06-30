@@ -57,7 +57,7 @@ class LLMOutputParser:
     def _basic_parse(self, llm_output: str) -> BaseModel:
         json_string = get_json_markdown_code_block(llm_output)
         fixed_json = repair_json(json_string, skip_json_loads=True)
-        if not fixed_json:
+        if not fixed_json and not json_string:
             # empty string or None
             logger.debug(
                 "Fixed JSON is empty or None, returning serializable with unparsed output"

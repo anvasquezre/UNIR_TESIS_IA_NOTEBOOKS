@@ -1,0 +1,1 @@
+{"answer":"","properties":{"answer":{"default":"80-","description":"The answer to the question.","title":"Answer","type":"string","pattern":"^80-$"}}}
